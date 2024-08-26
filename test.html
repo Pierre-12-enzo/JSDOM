@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./boot/bootstrap5/bootstrap.min.css">
+    <script defer src="./boot/bootstrap5/bootstrap.bundle.min.js"></script>
+     <title>Document1</title>
+</head>
+<body>
+    <header class="bg-success text-white p-2">
+ <div class="container">
+    <div class="h1" id="header-title">Item Listener</div>
+
+ </div> 
+ </header>
+ <div class="container">
+    <div id="main" class="card card-body my-3">
+    <p class="h1 text-dark">Add Items</p>
+    <form class="form-inline mb-3">
+        <input type="text" class="form-control mr-2" id="search">
+        <select class="form-control mr-">
+            <option value="1">1</option>
+            <option value="2">2</option>
+            <option value="3">3</option>
+            <option value="4">4</option>
+        </select>
+        <input type="submit" class="btn btn-dark d-inline">
+    </form>
+    <p class="h3 title">Items</p>
+    <ul id="items" class="list-group">
+        <li class="list-group-item">Item1</li>
+        <li class="list-group-item">Item2</li>
+        <li class="list-group-item">Item3</li>
+        <li class="list-group-item">Item4</li>
+    </ul>
+    <div id="output"></div>
+    <button id="button" class="btn btn-dark btn-block">Click me</button>
+   <div id="box" style="width: 400px; height: 200px; background: #f4f4f4f4;"><p>HELLO</p></div> 
+</div>
+ </div>
+ <script src="./DOM.js"></script>
+</body>
+</html>
